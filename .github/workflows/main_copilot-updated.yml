@@ -64,4 +64,4 @@ jobs:
         with:
           app-name: 'copilot-updated'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_9D0A25CB63B54BAF87859C06CBEDAC7B }}
+          publish-profile: ${{ secrets.AZURE_PUBLISH_PROFILE }}
